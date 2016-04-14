@@ -1,9 +1,22 @@
 en:
+  tags:
+    staff_tag_disallowed: "The location \"%{tag}\" may only be applied by staff."
+    staff_tag_remove_disallowed: "The location \"%{tag}\" may only be removed by staff."
+
   site_settings:
-    tagging_enabled: "Allow users to add a location to topics?"
+    tagging_enabled: "Allow users to add locations to topics?"
     min_trust_to_create_tag: "The minimum trust level required to create a location."
     max_tags_per_topic: "The maximum locations that can be applied to a topic."
     max_tag_length: "The maximum amount of characters that can be used in a location."
-  rss_by_tag: "Topics for location %{tag}"
+    max_tag_search_results: "When searching for locations, the maxium number of results to show."
+    show_filter_by_tag: "Show a dropdown to filter a topic list by location."
+    max_tags_in_filter_list: "Maximum number of locations to show in the filter dropdown. The most used locations will be shown."
+    tags_sort_alphabetically: "Show locations in alphabetical order. Default is to show in order of popularity."
+    tag_style: "Visual style for location badges."
+    staff_tags: "A list of locations that can only be applied by staff members"
+    min_trust_level_to_tag_topics: "Minimum trust level required to add locations to topics"
+    suppress_overlapping_tags_in_list: "Hide locations from list views, if they overlap with title"
+    remove_muted_tags_from_latest: "Don't show topics tagged with muted locations in the latest topic list."
+  rss_by_tag: "Topics for %{tag}"
   rss_description:
     tag: "Location topics"
